@@ -1,0 +1,39 @@
+{
+  "name": "Swarg Music",
+  "description": "𝐀𝐧 𝐀𝐝𝐯𝐚𝐧𝐜𝐞𝐝 𝐒𝐮𝐩𝐞𝐫𝐟𝐚𝐬𝐭 𝐚𝐧𝐝 𝐏𝐨𝐰𝐞𝐫𝐟𝐮𝐥𝐥 𝐌𝐮𝐬𝐢𝐜 𝐏𝐥𝐚𝐲𝐞𝐫 𝐁𝐨𝐭 𝐅𝐨𝐫 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦 𝐆𝐫𝐨𝐮𝐩 𝐕𝐨𝐢𝐜𝐞 𝐂𝐡𝐚𝐭 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 𝐏𝐲𝐓𝐠𝐜𝐚𝐥𝐥𝐬.",
+  "keywords": ["music", "voicechat", "telegram"],
+  "repository": "https://github.com/AdityaHalder/SwargMusic",
+  "stack": "container",
+  "env": {
+    "SESSION_NAME": {
+      "description": "𝐏𝐲𝐫𝐨𝐠𝐫𝐚𝐦 𝐒𝐭𝐫𝐢𝐧𝐠 𝐒𝐞𝐬𝐬𝐢𝐨𝐧",
+      "required": true
+    },
+    "BOT_TOKEN": {
+      "description": "𝐘𝐨𝐮𝐫 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦 𝐁𝐨𝐭 𝐓𝐨𝐤𝐞𝐧 𝐅𝐫𝐨𝐦 @𝐁𝐨𝐭𝐅𝐚𝐭𝐡𝐞𝐫",
+      "required": true
+    },
+    "BOT_NAME": {
+      "description": "𝐘𝐨𝐮𝐫 𝐌𝐮𝐬𝐢𝐜 𝐏𝐥𝐚𝐲𝐞𝐫 𝐁𝐨𝐭 𝐍𝐚𝐦𝐞",
+      "required": false,
+      "value": ""
+    },
+    "API_ID": {
+      "description": "𝐀𝐩𝐩 𝐈𝐃 𝐅𝐫𝐨𝐦 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦 𝐖𝐞𝐛𝐬𝐢𝐭𝐞",
+      "required": true
+    },
+    "API_HASH": {
+      "description": "𝐀𝐩𝐢 𝐇𝐚𝐬𝐡 𝐅𝐫𝐨𝐦 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦 𝐖𝐞𝐛𝐬𝐢𝐭𝐞",
+      "required": true
+    },
+    "SUDO_USERS": {
+      "description": "𝐔𝐬𝐞𝐫𝐬 𝐈𝐃 𝐎𝐟 𝐁𝐨𝐭 𝐀𝐝𝐦𝐢𝐧𝐬 (𝑺𝒆𝒑𝒂𝒓𝒂𝒕𝒆𝒅 𝑩𝒚 𝑺𝒑𝒂𝒄𝒆)",
+      "required": true
+    },
+    "DURATION_LIMIT": {
+      "description": "𝐌𝐚𝐱 𝐃𝐮𝐫𝐚𝐭𝐢𝐨𝐧 𝐎𝐟 𝐒𝐨𝐧𝐠 𝐘𝐨𝐮 𝐖𝐚𝐧𝐭 𝐭𝐨 𝐏𝐥𝐚𝐲",
+      "required": true,
+      "value": "10"
+    }
+  }
+}
